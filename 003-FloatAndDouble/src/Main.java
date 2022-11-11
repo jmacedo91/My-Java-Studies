@@ -13,19 +13,24 @@ public class Main {
 
         int myIntValue = 5 / 3;
         float myFloatValue = 5f / 3f; // You can use (float) cast
-        double myDoubleValue = 5d / 3d;
+        double myDoubleValue = 5.00 / 3.00;
 
         System.out.println("MyIntValue: " + myIntValue);
         System.out.println("myFloatValue: " + myFloatValue);
         System.out.println("MyDoubleValue: " + myDoubleValue);
 
         // Challenge
-        double pounds = 1d;
-        double coefficient = 0.45359237d;
-        double kilograms = pounds * coefficient;
-        System.out.println(pounds + " pounds is equivalent to " + kilograms + " kilograms.");
+        double numberOfPounds = 200d;
+        double convertedKilograms = numberOfPounds * 0.45359237d;
+        System.out.println("Converted Kilograms= " + convertedKilograms);
 
+        double pi = 3.1415927d;
+        double anotherNumber = 3_000_000.4_567_890d;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
 
+        // For general Calculations Float and Double are gret, but if you need more precision u can use a class
+        // called BigDecimal
 
     }
 }
