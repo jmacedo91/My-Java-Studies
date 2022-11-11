@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
         int result = 1 + 2; // 1 + 2 = 3
@@ -43,7 +44,10 @@ public class Main {
         result -= 2; // 10 - 2 = 8
         System.out.println("10 - 2 = " + result);
 
-
-
+        boolean isAlien = false;
+        if (!isAlien) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I scared of aliens");
+        }
     }
 }
